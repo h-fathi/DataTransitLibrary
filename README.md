@@ -9,6 +9,6 @@ This library can be run on any .NET Core which has .NET Core 3.1, .NET Standard 
 
 2- config database anme in appsetting.
 
-3- for test you can get big data excel file from 'https://eforexcel.com/wp/downloads-18-sample-csv-files-data-sets-for-testing-sales/'.
+3- for test you can get big data excel file from 'https://eforexcel.com/wp/downloads-18-sample-csv-files-data-sets-for-testing-sales/' and copy xlsx file to WebApp folder path.
 
 
