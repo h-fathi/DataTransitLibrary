@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataTransit.Infrastructure\DataTransit.Infrastructure.csproj" />
+    <ProjectReference Include="..\DataTransit.Model\DataTransit.Model.csproj" />
+    <ProjectReference Include="..\Hf.Core.EfCore\Hf.Core.EfCore.csproj" />
+  </ItemGroup>
+
+</Project>

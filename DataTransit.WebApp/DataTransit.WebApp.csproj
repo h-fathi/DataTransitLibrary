@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataTransit.Infrastructure\DataTransit.Infrastructure.csproj" />
+    <ProjectReference Include="..\DataTransit.Services\DataTransit.Services.csproj" />
+  </ItemGroup>
+
+
+</Project>
